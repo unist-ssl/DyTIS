@@ -1,0 +1,62 @@
+## Data directory ##
+csv/
+pbf/
+result/
+build/
+bin/
+
+## Datasets ##
+*.csv
+
+## Logs ##
+wget-log*
+
+# Ctags
+tags
+
+# Log
+perf/
+*.log
+
+# Compiled source #
+###################
+*.out
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+*.lock
+
+# Byte-compiled / optimized / DLL files for python #
+####################################################
+__pycache__/
+*.py[cod]
+*$py.class
+
