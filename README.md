@@ -46,7 +46,7 @@ For more details about DyTIS, please refer to EuroSys 2023 paper (link will be u
 correspond to workloads Load, A, B, C, D, E, and F of YCSB over a given dataset.
 - Note that a cache drop command is executed in scripts/benchmark.sh (Line 38). If you do not have root privileges (sudo), exclude this command.
 - Before running the experiment, the dataset to be used in the experiment should be downloaded and located
-in the proper path (ex. in data/review-small.csv ). If the dataset is not the aforesaid one (e.g., different dataset or different path), modify dataset_files properly in the script.
+in the proper path (e.g., in data/review-small.csv ). If the dataset is not the aforesaid one (e.g., different dataset or different path), modify dataset_files properly in the script.
 - All throughput and latency results for each workload are saved as a log file in benchmark/result/.
 - To run real-world workloads:
 
