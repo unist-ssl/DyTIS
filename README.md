@@ -4,7 +4,7 @@ structure of Extendible hashing, leverages the CDF of the key distribution of a 
 the dataset grows. The key novelty behind DyTIS is to group keys by the natural key order and maintain keys in sorted order
 in each bucket to support scan operations within a hash index.
 
-For more details about DyTIS, please refer to EuroSys 2023 paper (link will be uploaded).
+For more details about DyTIS, please refer to EuroSys 2023 paper ([link](https://dl.acm.org/doi/10.1145/3552326.3587434)).
 
 # Prerequisites
 
